@@ -40,10 +40,10 @@ header {
 /* image */
 .me {
   background: linear-gradient(var(--color-primary), transparent);
-  width: 25rem;
+  width: 26rem;
   height: 28rem;
   position: absolute;
-  left: calc(50% - 11rem);
+  left: calc(50% - 13rem);
   margin-top: 9rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
