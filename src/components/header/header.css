@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 11rem;
   overflow: hidden;
 }
 
@@ -27,6 +27,7 @@ header {
   position: absolute;
   left: 0;
   bottom: 3rem;
+  font-size: 1.2rem;
 }
 
 .header__socials::after {
@@ -39,22 +40,43 @@ header {
 /* image */
 .me {
   background: linear-gradient(var(--color-primary), transparent);
-  width: 26rem;
-  height: 30rem;
+  width: 25rem;
+  height: 28rem;
   position: absolute;
-  left: calc(50% - 13rem);
-  margin-top: 4rem;
+  left: calc(50% - 11rem);
+  margin-top: 9rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding: 7rem 1.5rem 1.5rem 1.5rem;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
 /* scroll down */
 .scroll__down {
   position: absolute;
   right: -2.3rem;
+  bottom: 7rem;
+  /* transform: rotate(90deg); */
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.scroll__down:hover {
   bottom: 5rem;
-  transform: rotate(90deg);
-  font-weight: 300;
-  font-size: 0.9rem;
+}
+
+/* media queries ---- medium screen */
+@media screen and (max-width: 1024px) {
+  header {
+    height: 68vh;
+  }
+}
+/* media queries ---- small screen */
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
 }

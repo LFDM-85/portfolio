@@ -1,8 +1,9 @@
 import React from 'react';
 import './header.css';
 import Actions from './Actions';
-import Me from '../../assets/16178638_10211792604428332_3564116932687724794_o-removebg-preview.png';
+import Me from '../../assets/me3.png';
 import HeaderSocials from './HeaderSocials';
+import { BsMouse } from 'react-icons/bs';
 
 const Header = () => {
   return (
@@ -17,7 +18,7 @@ const Header = () => {
           <img src={Me} alt="me" />
         </div>
         <a href="#contact" className="scroll__down">
-          Scroll down
+          <BsMouse />
         </a>
       </div>
     </header>
