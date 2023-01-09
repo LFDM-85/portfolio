@@ -1,6 +1,7 @@
 import React from 'react';
 import './portfolio.css';
 import pj01 from '../../assets/Project_elearning_image.png';
+import pj02 from '../../assets/worldsearch.png';
 
 // TODO: create a server api to show my projects
 // INFO: for now hardcoded data
@@ -12,6 +13,13 @@ const data = [
     title: 'Eleaning School Tool',
     github: 'https://github.com/LFDM-85/Frontend',
     demo: 'https://frontendtest-livid.vercel.app/',
+  },
+  {
+    id: 2,
+    image: pj02,
+    title: 'World Search',
+    github: 'https://github.com/LFDM-85/worldSearch',
+    demo: 'https://world-search-tau.vercel.app/',
   },
 ];
 
