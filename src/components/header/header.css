@@ -79,4 +79,15 @@ header {
   .scroll__down {
     display: none;
   }
+  .me {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 16rem;
+    height: 18rem;
+    position: absolute;
+    left: calc(50% - 8rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+  }
 }
