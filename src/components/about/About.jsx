@@ -37,10 +37,11 @@ const About = () => {
             </article> */}
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores a
-            alias, laudantium, ratione suscipit fuga molestias quos accusamus
-            eius dicta nobis earum cum ducimus. Aperiam laborum error voluptas!
-            Minima, excepturi?
+            After ten years of professional experience in the industrial sector
+            and academic training in the area of Chemical Engineering, I felt
+            that I needed a new challenge since this industrial context no
+            longer satisfied me. So, out of my own curiosity, I started learning
+            web developer programming.
           </p>
 
           <a href="#contacts" className="btn btn-primary">
