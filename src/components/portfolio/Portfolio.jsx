@@ -33,7 +33,7 @@ const data = [
   {
     id: 4,
     image: pj04,
-    title: 'More projects here',
+    title: 'More projects on Github',
     github: 'https://github.com/LFDM-85/',
   },
 ];
