@@ -2,6 +2,8 @@ import React from 'react';
 import './portfolio.css';
 import pj01 from '../../assets/Project_elearning_image.png';
 import pj02 from '../../assets/worldsearch.png';
+import pj03 from '../../assets/weatherapp.png';
+import pj04 from '../../assets/dinerfy.png';
 
 // TODO: create a server api to show my projects
 // INFO: for now hardcoded data
@@ -20,6 +22,13 @@ const data = [
     title: 'World Search',
     github: 'https://github.com/LFDM-85/worldSearch',
     demo: 'https://world-search-tau.vercel.app/',
+  },
+  {
+    id: 3,
+    image: pj03,
+    title: 'Local Weather App',
+    github: 'https://github.com/LFDM-85/weather-app',
+    demo: 'https://weatherapp-blush-two.vercel.app/',
   },
 ];
 
