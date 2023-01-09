@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import Me from '../../assets/me4.jpg';
+import Me from '../../assets/me4.jpeg';
 import { FaIndustry } from 'react-icons/fa';
 import { BsCodeSlash } from 'react-icons/bs';
 import { VscNewFolder } from 'react-icons/vsc';
