@@ -20,21 +20,21 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <BsCodeSlash className="about__icon" />
-              <h5>IT Experience</h5>
-              <small>1 Year Working</small>
+              <h5>Coding Experience</h5>
+              <small>1 Year</small>
             </article>
 
             <article className="about__card">
               <FaIndustry className="about__icon" />
               <h5>Industry Experience</h5>
-              <small>10 Years Working</small>
+              <small>10 Years</small>
             </article>
 
-            <article className="about__card">
+            {/* <article className="about__card">
               <VscNewFolder className="about__icon" />
               <h5>Projects</h5>
               <small>15+ Completed</small>
-            </article>
+            </article> */}
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores a
