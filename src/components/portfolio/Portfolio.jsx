@@ -3,7 +3,7 @@ import './portfolio.css';
 import pj01 from '../../assets/Project_elearning_image.png';
 import pj02 from '../../assets/worldsearch.png';
 import pj03 from '../../assets/weatherapp.png';
-import pj04 from '../../assets/dinerfy.png';
+import pj04 from '../../assets/yancy-min-842ofHC6MaI-unsplash.jpg';
 
 // TODO: create a server api to show my projects
 // INFO: for now hardcoded data
@@ -29,6 +29,12 @@ const data = [
     title: 'Local Weather App',
     github: 'https://github.com/LFDM-85/weather-app',
     demo: 'https://weatherapp-blush-two.vercel.app/',
+  },
+  {
+    id: 4,
+    image: pj04,
+    title: 'More projects here',
+    github: 'https://github.com/LFDM-85/',
   },
 ];
 
