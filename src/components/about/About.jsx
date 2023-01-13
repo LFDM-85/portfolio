@@ -38,10 +38,9 @@ const About = () => {
           </div>
           <p>
             After ten years of professional experience in the industrial sector
-            and academic training in the area of Chemical Engineering, I felt
-            that I needed a new challenge since this industrial context no
-            longer satisfied me. So, out of my own curiosity, I started learning
-            web developer programming.
+            and academic training in Chemical Engineering, I felt the need to
+            take a new challenge. So, out of my own curiosity, I start learning
+            web programming.
           </p>
 
           <a href="#contacts" className="btn btn-primary">
