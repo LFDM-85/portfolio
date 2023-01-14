@@ -12,7 +12,7 @@ const data = [
   {
     id: 1,
     image: pj01,
-    title: 'Eleaning School Tool - Under development',
+    title: 'Ele@rn - Under development',
     github: 'https://github.com/LFDM-85/Frontend',
     demo: 'https://frontendtest-livid.vercel.app/',
   },
