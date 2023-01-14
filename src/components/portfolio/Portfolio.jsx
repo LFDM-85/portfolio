@@ -12,7 +12,7 @@ const data = [
   {
     id: 1,
     image: pj01,
-    title: 'Ele@rn - Under development',
+    title: 'E-le@rn - Under development',
     github: 'https://github.com/LFDM-85/Frontend',
     demo: 'https://frontendtest-livid.vercel.app/',
   },
