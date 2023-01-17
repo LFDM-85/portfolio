@@ -9,6 +9,7 @@ import { IoLogoNodejs } from 'react-icons/io';
 import { SiNestjs } from 'react-icons/si';
 import { SiExpress } from 'react-icons/si';
 import { SiMongodb } from 'react-icons/si';
+import { SiTypescript } from 'react-icons/si';
 
 const Experience = () => {
   return (
@@ -44,6 +45,13 @@ const Experience = () => {
               <FaReact className="experience__details-icon" />
               <div>
                 <h4>ReactJs</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiTypescript className="experience__details-icon" />
+              <div>
+                <h4>TypeScript</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>

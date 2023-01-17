@@ -11,12 +11,12 @@
 
 /* CSS variables */
 :root {
-  --color-bg: #04253a;
-  --color-bg-variant: #176192;
-  --color-primary: #0a77c0;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-bg: #004643;
+  --color-bg-variant: #001e1d;
+  --color-primary: rgb(249, 188, 96);
+  --color-primary-variant: rgba(39, 100, 143, 0.4);
   --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light: rgb(249, 188, 96);
 
   --transition: all 400ms ease;
 

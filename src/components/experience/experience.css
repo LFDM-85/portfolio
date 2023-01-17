@@ -8,6 +8,7 @@
   background: var(--color-bg-variant);
   padding: 2.4rem 5rem;
   border-radius: 2rem;
+
   border: 1px solid transparent;
   transition: var(--transition);
 }
@@ -36,7 +37,7 @@
 
 .experience__details-icon {
   margin-top: 6px;
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 /* media queries ---- medium screen */
