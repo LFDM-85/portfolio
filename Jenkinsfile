@@ -17,7 +17,8 @@ pipeline {
 
         stage('Yarn install') {
           steps {
-            sh 'npm install --global yarn'
+            sh '''sudo apt install nodejs;
+npm install --global yarn;'''
           }
         }
 
