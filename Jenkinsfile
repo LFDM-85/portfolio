@@ -8,19 +8,8 @@ pipeline {
     }
 
     stage('Logs') {
-      parallel {
-        stage('Logs') {
-          steps {
-            sh 'ls -la'
-          }
-        }
-
-        stage('Run WebSite') {
-          steps {
-            sh 'npm install --global yarn'
-          }
-        }
-
+      steps {
+        sh 'ls -la'
       }
     }
 
