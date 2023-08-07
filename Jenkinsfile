@@ -17,10 +17,7 @@ pipeline {
 
         stage('Run WebSite') {
           steps {
-            sh '''npm install --global yarn
-
-yarn
-yarn run'''
+            sh 'npm install --global yarn'
           }
         }
 
