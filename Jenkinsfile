@@ -8,20 +8,8 @@ pipeline {
     }
 
     stage('Logs') {
-      parallel {
-        stage('Logs') {
-          steps {
-            sh 'ls -la'
-          }
-        }
-
-        stage('Yarn install') {
-          steps {
-            sh '''sudo apt install nodejs;
-npm install --global yarn;'''
-          }
-        }
-
+      steps {
+        sh 'ls -la'
       }
     }
 
